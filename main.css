@@ -1,0 +1,257 @@
+*{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #e29e0b; 
+    height: 110px;
+    text-align: center;
+}
+
+header a {
+    margin-right: 120px; /* Ajuste o espaçamento conforme necessário */
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+}
+
+body {
+    background-color: #232424; /* Cinza escuro / Grafite */
+}
+
+.container {
+    padding: 0; /* Se o header estiver dentro de um elemento com a classe "container" */
+    display: flexbox;
+    color: rgb(0, 0, 0);
+}
+
+header .container img{
+    width: 120px;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+section .Planos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+}
+
+section .Planos img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 150px; /* Ajuste a margem superior conforme necessário */
+    text-align: center; /* Opcional: centralizar o texto */
+    color: rgb(0, 0, 0);
+}
+
+/* Seção Modalidades */
+section .Modalidade{
+    display: flex; /* Cria o layout lado a lado */
+    align-items: flex-start; /* Alinha os elementos no topo */
+    margin-bottom: 20px; /* Espaço entre os blocos */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    color: white;
+}
+
+section .Modalidade img{
+    width: 40%; /* Define largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta o conteúdo da imagem */
+    border-radius: 8px;
+}
+section .Modalidade p{
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */ 
+    line-height: 1.5; /* Espaçamento entre linhas */ 
+    color: #ffffff; /* Cor do texto */ 
+    text-align: justify; /* Alinhamento do texto */
+    margin-top: 70px;
+}
+
+section .Modalidade h3{ 
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */ 
+    color: #ffffff; /* Cor do texto */ 
+    margin-bottom: 0px; /* Espaçamento abaixo do título */ 
+    text-align: left;
+    margin-top: 0%;
+}
+
+section {
+    padding: 20px;
+}
+
+section#Modalidades h1 {
+    margin-bottom: 140px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para a seção Estrutura */
+section .estrutura {
+    display: grid; /* Cria uma grade */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define colunas flexíveis */
+    gap: 20px; /* Espaço entre os itens */
+    margin-top: 20px; /* Espaço acima da grade */
+    justify-items: center; /* Centraliza as imagens */
+    color: white;
+}
+
+section .estrutura img {
+    width: 100%; /* Imagem ocupa o tamanho do contêiner */
+    height: 500px; /* Mantém proporção */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+
+/* Estilo para a seção "Quem somos" */
+section .quem_somos {
+    display: flex; /* Define layout lado a lado */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 20px; /* Espaço entre imagem e texto */
+    margin-top: 20px; /* Espaço acima do conteúdo */
+    color: white;
+}
+
+section#About h1{
+    margin-bottom: 10px;
+}
+
+section .quem_somos img {
+    width: 40%; /* Define largura da imagem */
+    height: auto; /* Mantém proporção */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    object-fit: cover; /* Ajusta o conteúdo da imagem */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+
+section .quem_somos p {
+    flex: 1; /* Faz o texto ocupar o restante do espaço */
+    text-align: justify; /* Alinha o texto para melhor leitura */
+    margin: 0; /* Remove margens padrão */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: white;
+}
+
+.floating-button{ 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #e29e0b; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    padding: 15px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 50px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    z-index:
+}
+
+button[type="submit"]{ 
+    background-color: #e29e0b; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+    border-radius: 4px;
+}
+
+.social-media { 
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+
+.social-media img { 
+    width: 60px; /* Ajuste conforme necessário */
+    height: 60px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+
+.formulario { 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+} 
+
+.formulario form { 
+    display: flex; 
+    flex-direction: column; 
+} 
+
+.formulario label { 
+    margin-top: 10px; 
+    font-weight: bold; 
+} 
+
+.formulario input, .formulario textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+
+footer { 
+    background-color: #333; 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+a { 
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+h1,h2{
+    background-color: #e29e0b; 
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h3{
+    color: white;
+}
+
+section#Modalidades h3{
+    color: black;
+    background-color: #e29e0b;
+}
+
+section .social-media p{
+    color: white;
+}
